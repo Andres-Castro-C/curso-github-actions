@@ -1,5 +1,5 @@
 name: Aprendiendo GotHub Actions
-run-name: !Estoy Aprendido GitHub Actions!
+run-name: Estoy Aprendido GitHub Actions
 on: [push]
 jobs:
   hola-mundo:
