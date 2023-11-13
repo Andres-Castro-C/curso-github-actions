@@ -1,5 +1,5 @@
-name: Aprendiendo GotHub Actions
-run-name: Estoy Aprendido GitHub Actions
+name: Aprendiendo GitHub Actions
+run-name: ¡Estoy aprendiendo GitHub Actions!
 on: [push]
 jobs:
   hola-mundo:
@@ -9,5 +9,5 @@ jobs:
         uses: actions/checkout@v3
       - name: Definir variable
         run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
-      - name: Run Python
-        run: python main.py
+      - name: Correr script
+        run: python hola_mundo.py
